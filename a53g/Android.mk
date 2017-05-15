@@ -17,7 +17,7 @@
 LOCAL_PATH := $(call my-dir)
 
 ifeq ($(BOARD_VENDOR),samsung)
-ifneq ($(filter a53g,$(TARGET_DEVICE)),)
+ifneq ($(filter a53g a53gxx,$(TARGET_DEVICE)),)
 
 
 endif
